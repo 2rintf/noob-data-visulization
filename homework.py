@@ -58,7 +58,7 @@ maleValues = total_popu_male[4]
 femaleValues = total_popu_female[4]
 plt.title('第六次人口普查--中国男女比例')
 plt.pie([maleValues,femaleValues],labels=['男','女'],autopct='%1.1f%%',
-        startangle=90,shadow=True)
+        startangle=90,shadow=False)
 plt.legend()
 plt.savefig('人口普查男女比例.jpg',dpi=500)
 plt.show()
