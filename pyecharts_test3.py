@@ -48,8 +48,6 @@ popu_test = [i[1] for i in test]
 # 总人口图
 xValues = area_test[4:]
 yValues_total = popu_test[4:]
-
-
 a=(
     PictorialBar()
     .add_xaxis(xValues[::-1])
